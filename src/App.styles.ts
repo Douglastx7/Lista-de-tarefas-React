@@ -12,7 +12,7 @@ export const Area = styled.div`
   padding: 10px;
 
   @media (max-width:760px) { 
-    max-width: 320px;
+    max-width: 350px;
   }
 `;
 

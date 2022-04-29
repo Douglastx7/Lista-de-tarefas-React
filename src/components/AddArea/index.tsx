@@ -17,8 +17,12 @@ export const AddArea = ({onEnter}: Props) => {
   }
 
   const AddListButton = () => { 
-         onEnter(inputText);
-         setInputText('');
+
+       if(inputText != ''){
+        onEnter(inputText);
+        setInputText('');
+       }
+        
   }
 
   return(
